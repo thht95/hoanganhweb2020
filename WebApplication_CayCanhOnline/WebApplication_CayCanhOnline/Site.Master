@@ -1,0 +1,156 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebApplication_CayCanhOnline.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="styles/stylesheet.css" />
+    <script src="ckeditor_4.14.0_full/ckeditor/ckeditor.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script>
+        function xoachude(ma) {
+            if (confirm("bạn có muốn xóa câu hỏi này không?")) {
+                $.post("xoadanhmuc.aspx",
+                    {
+                        "ma": ma,
+                    },
+                    function (data, status) {
+                        //alert("Data: " + data + "\nStatus: " + status);
+                        if (data == 1) {
+                            $("#danhmuc_" + ma).slideUp();
+                        }
+                    });
+            }
+        }
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!--Header-->
+        <div id="header">
+            <a href="TrangChu.aspx">
+                <img src="images/logo.png" style="width: 40%; height: 100%; float: left" /></a>
+            <img src="images/banner.jpg" style="width: 60%; height: 100%; float: left" />
+        </div>
+        <div class="section-menu">
+            <div class="menu-bar">
+                <div class="menu" style="padding: 0">
+                    <div class="dang-nhap">
+                        <a href="GioHang.aspx">
+                            <img src="images/giohang.png" class="img-giohang" /></a>
+                        <asp:Button ID="btnDangNhap" Text="Đăng nhập" OnClick="btnDangNhap_Click" runat="server" CssClass="btnToDangNhap" />
+                    </div>
+                </div>
+                <div class="menu">
+                    <%if (btnDangNhap.Text == "Đăng nhập")
+                        {%>
+                    <a href="HoiDap.aspx">Hỏi đáp</a>
+                    <%}
+                        else
+                        {%>
+                    <a href="tlhoidap.aspx">Hỏi đáp</a>
+                    <%} %>
+                </div>
+                <div class="menu">
+                    <a href="TinTuc.aspx">Tin tức</a>
+                </div>
+                <div class="menu">
+                    <a href="TrangChu.aspx">Sản phẩm</a>
+                    <div class="sub-menu">
+                        <a href="TrangChu.aspx?type=deban">Cây để bàn</a>
+                        <a href="TrangChu.aspx?type=hoa">Cây hoa</a>
+                        <a href="TrangChu.aspx?type=thuysinh">Cây thủy sinh</a>
+                    </div>
+                </div>
+                <div class="menu">
+                    <a href="#">Giới thiệu</a>
+                </div>
+                <div class="menu">
+                    <a href="TrangChu.aspx">Trang chủ</a>
+                </div>
+            </div>
+        </div>
+        <!--Hết HEADER-->
+
+        <!--SideBar-->
+        <div class="container">
+            <div class="sidebar col-3">
+                <ul>
+                    <li class="menu-title">Danh mục sản phẩm</li>
+                    <li><a href="TrangChu.aspx?type=deban">Cây để bàn</a></li>
+                    <li><a href="TrangChu.aspx?type=hoa">Cây hoa</a></li>
+                    <li><a href="TrangChu.aspx?type=thuysinh">Cây thủy sinh</a></li>
+                </ul>
+                <ul class="locsp">
+                    <li class="menu-title">Lọc sản phẩm</li>
+                    <li style="padding:10px">
+                        <table>
+                            <tr>
+                                <td><input type="checkbox" /></td>
+                                <td><p>Dưới 500.000đ</p></td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li style="padding:10px">
+                        <table>
+                            <tr>
+                                <td><input type="checkbox" /></td>
+                                <td><p>Từ 500.000đ đến 1.000.000đ</p></td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li style="padding:10px">
+                        <table>
+                            <tr>
+                                <td><input type="checkbox" /></td>
+                                <td><p>Trên 1.000.000đ</p></td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+            </div>
+            <!--Hết Sidebar-->
+            <!--END header-->
+            <div class="content col-9">
+                <asp:Label ID="lblTitle" runat="server" Text="Sản phẩm nổi bật" CssClass="lblTitle"></asp:Label>
+                <hr class="hr" />
+                <!--Nội dung-->
+                <asp:ContentPlaceHolder ID="content" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <!--END Nội dung-->
+        </div>
+        <!--Footer-->
+        <div class="footer col-12">
+            <table style="width: 100%; height: 100%;">
+                <tr>
+                    <td>
+                        <div class="footer-lienhe">
+                            <h3>SHOP CÂY CẢNH ONLINE</h3>
+                            <h4>96 Định Công, Thanh Xuân, Hà Nội</h4>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="footer-lienhe">
+                            <h3>DĐ: 0385499549</h3>
+                            <h4>Email: vantan2705@gmail.com</h4>
+                        </div>
+                    </td>
+                    <td>
+                        <img src="images/logo-footer.png" style="float: left" /></td>
+                    <td>
+                        <img src="images/vanchuyen/ghn.png" /></td>
+                    <td>
+                        <img src="images/vanchuyen/ghtk.png" /></td>
+                    <td>
+                        <img src="images/vanchuyen/vtp.jpg" /></td>
+                </tr>
+            </table>
+        </div>
+        <!--End footer-->
+    </form>
+</body>
+</html>

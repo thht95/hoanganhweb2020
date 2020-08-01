@@ -1,0 +1,44 @@
+D:\OneDrive\DOCUMENTS\FITHOU\LT WEB CO BAN\BTL\WEB APPLICATION\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\bin\WebApplication_CayCanhOnline.dll.config
+D:\OneDrive\DOCUMENTS\FITHOU\LT WEB CO BAN\BTL\WEB APPLICATION\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\bin\WebApplication_CayCanhOnline.dll
+D:\OneDrive\DOCUMENTS\FITHOU\LT WEB CO BAN\BTL\WEB APPLICATION\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\bin\WebApplication_CayCanhOnline.pdb
+D:\OneDrive\DOCUMENTS\FITHOU\LT WEB CO BAN\BTL\WEB APPLICATION\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.csprojAssemblyReference.cache
+D:\OneDrive\DOCUMENTS\FITHOU\LT WEB CO BAN\BTL\WEB APPLICATION\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.csproj.CoreCompileInputs.cache
+D:\OneDrive\DOCUMENTS\FITHOU\LT WEB CO BAN\BTL\WEB APPLICATION\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.dll
+D:\OneDrive\DOCUMENTS\FITHOU\LT WEB CO BAN\BTL\WEB APPLICATION\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.pdb
+D:\OneDrive\DOCUMENTS\FITHOU\LT WEB CO BAN\BTL\MasterPage\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\bin\WebApplication_CayCanhOnline.dll.config
+D:\OneDrive\DOCUMENTS\FITHOU\LT WEB CO BAN\BTL\MasterPage\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\bin\WebApplication_CayCanhOnline.dll
+D:\OneDrive\DOCUMENTS\FITHOU\LT WEB CO BAN\BTL\MasterPage\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\bin\WebApplication_CayCanhOnline.pdb
+D:\OneDrive\DOCUMENTS\FITHOU\LT WEB CO BAN\BTL\MasterPage\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.csprojAssemblyReference.cache
+D:\OneDrive\DOCUMENTS\FITHOU\LT WEB CO BAN\BTL\MasterPage\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.csproj.CoreCompileInputs.cache
+D:\OneDrive\DOCUMENTS\FITHOU\LT WEB CO BAN\BTL\MasterPage\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.dll
+D:\OneDrive\DOCUMENTS\FITHOU\LT WEB CO BAN\BTL\MasterPage\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.pdb
+C:\Users\ADELINE\Desktop\Study\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\bin\WebApplication_CayCanhOnline.dll.config
+C:\Users\ADELINE\Desktop\Study\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\bin\WebApplication_CayCanhOnline.dll
+C:\Users\ADELINE\Desktop\Study\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\bin\WebApplication_CayCanhOnline.pdb
+C:\Users\ADELINE\Desktop\Study\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.dll
+C:\Users\ADELINE\Desktop\Study\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.pdb
+D:\Bài tập lớn Lập trình web\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\bin\WebApplication_CayCanhOnline.dll.config
+D:\Bài tập lớn Lập trình web\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\bin\WebApplication_CayCanhOnline.dll
+D:\Bài tập lớn Lập trình web\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\bin\WebApplication_CayCanhOnline.pdb
+D:\Bài tập lớn Lập trình web\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.csprojAssemblyReference.cache
+D:\Bài tập lớn Lập trình web\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.dll
+D:\Bài tập lớn Lập trình web\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.pdb
+D:\btlweb\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.csprojAssemblyReference.cache
+D:\btlweb\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.dll
+D:\btlweb\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.pdb
+D:\btlweb\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\bin\WebApplication_CayCanhOnline.dll.config
+D:\btlweb\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\bin\WebApplication_CayCanhOnline.dll
+D:\btlweb\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\bin\WebApplication_CayCanhOnline.pdb
+D:\btlweb\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.csproj.CoreCompileInputs.cache
+C:\Users\ADELINE\Desktop\btlweb\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\bin\WebApplication_CayCanhOnline.dll.config
+C:\Users\ADELINE\Desktop\btlweb\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\bin\WebApplication_CayCanhOnline.dll
+C:\Users\ADELINE\Desktop\btlweb\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\bin\WebApplication_CayCanhOnline.pdb
+C:\Users\ADELINE\Desktop\btlweb\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.dll
+C:\Users\ADELINE\Desktop\btlweb\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.pdb
+C:\Users\Administrator\Downloads\btlweb\btlweb\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\bin\WebApplication_CayCanhOnline.dll.config
+C:\Users\Administrator\Downloads\btlweb\btlweb\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\bin\WebApplication_CayCanhOnline.dll
+C:\Users\Administrator\Downloads\btlweb\btlweb\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\bin\WebApplication_CayCanhOnline.pdb
+C:\Users\Administrator\Downloads\btlweb\btlweb\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.csprojAssemblyReference.cache
+C:\Users\Administrator\Downloads\btlweb\btlweb\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\btlweb\btlweb\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.dll
+C:\Users\Administrator\Downloads\btlweb\btlweb\WebApplication_CayCanhOnline\WebApplication_CayCanhOnline\obj\Debug\WebApplication_CayCanhOnline.pdb
