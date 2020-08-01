@@ -21,4 +21,5 @@
         <asp:Button runat="server" ID="btnDangNhap" CssClass="btnDangNhap" Text="Đăng nhập" OnClick="btnDangNhap_Click" />
      </div>
            <!--HẾT ĐĂNG NHẬP-->
+           <!--End login-->
 </asp:Content>
