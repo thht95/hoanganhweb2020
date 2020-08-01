@@ -15,7 +15,7 @@
         <p id="loiTaiKhoan" class="loiTaiKhoan" runat="server"></p>
         <br />
         <label>Mật khẩu:</label>
-        <asp:TextBox runat="server" TextMode="Password" ID="txtMatKhau" CssClass="txtMatKhau" placeholder="Nhập mật khẩu "></asp:TextBox>
+        <asp:TextBox runat="server" TextMode="Password" ID="txtMatKhau" CssClass="txtMatKhau" placeholder="Nhập password "></asp:TextBox>
         <p id="loiMatKhau" class="loiMatKhau" runat="server"></p>
         <asp:Button runat="server" ID="btnDangKy" CssClass="btnDangKy" Text="Đăng ký" OnClick="btnDangKy_Click" />
         <asp:Button runat="server" ID="btnDangNhap" CssClass="btnDangNhap" Text="Đăng nhập" OnClick="btnDangNhap_Click" />
