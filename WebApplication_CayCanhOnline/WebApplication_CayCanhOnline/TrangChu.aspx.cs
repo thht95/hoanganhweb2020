@@ -52,7 +52,7 @@ namespace WebApplication_CayCanhOnline
             else
             {
                 Page.Title = "Cây cảnh online - Trang chủ";
-                lblTitle.Text = "Sản phẩm nổi bật";
+                lblTitle.Text = "Sản phẩm nổi bật nhất";
             }
         }
         protected void btnThem_Click(object sender, EventArgs e)

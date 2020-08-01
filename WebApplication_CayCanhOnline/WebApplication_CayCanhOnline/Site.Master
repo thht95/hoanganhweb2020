@@ -115,7 +115,7 @@
             <!--Hết Sidebar-->
             <!--END header-->
             <div class="content col-9">
-                <asp:Label ID="lblTitle" runat="server" Text="Sản phẩm nổi bật" CssClass="lblTitle"></asp:Label>
+                <asp:Label ID="lblTitle" runat="server" Text="Sản phẩm nổi bật nhất" CssClass="lblTitle"></asp:Label>
                 <hr class="hr" />
                 <!--Nội dung-->
                 <asp:ContentPlaceHolder ID="content" runat="server">
