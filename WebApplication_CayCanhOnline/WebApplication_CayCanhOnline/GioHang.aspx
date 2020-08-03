@@ -30,7 +30,8 @@
 
             <asp:TemplateField HeaderText="Số lượng" ItemStyle-Width="15%" HeaderStyle-Width="15%">
                 <ItemTemplate>
-                    <p class="gh-sl"><%#Eval("sl") %></p>
+                    <input type="number" class="gh-sl" min="1" width="50%" value="<%#Eval("sl") %>"/>
+                    <%--<p class="gh-sl"><%#Eval("sl") %></p>--%>
                 </ItemTemplate>
             </asp:TemplateField>
 
