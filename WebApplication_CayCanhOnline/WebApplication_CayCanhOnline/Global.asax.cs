@@ -19,7 +19,7 @@ namespace WebApplication_CayCanhOnline
             Application.Contents["taikhoan"] = lsTaiKhoan;
             //END Tài Khoản
 
-
+            
 
             //Sản phẩm
             Application.Add("sanpham", new List<SanPham>());
@@ -101,6 +101,8 @@ namespace WebApplication_CayCanhOnline
             tk.GioHang = sanPham;
             Session.Add("taikhoan", tk);
             List<SanPham> gioHang = new List<SanPham>();
+
+            Session.Add("WrongLogin", 0);
         }
 
         protected void Application_BeginRequest(object sender, EventArgs e)

@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication_CayCanhOnline {
-    
-    
-    public partial class DangNhap1 {
-        
+namespace WebApplication_CayCanhOnline
+{
+
+
+    public partial class DangNhap1
+    {
+
         /// <summary>
         /// txtTaiKhoan control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace WebApplication_CayCanhOnline {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtTaiKhoan;
-        
+
         /// <summary>
         /// loiTaiKhoan control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace WebApplication_CayCanhOnline {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl loiTaiKhoan;
-        
+
         /// <summary>
         /// txtMatKhau control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace WebApplication_CayCanhOnline {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtMatKhau;
-        
+
         /// <summary>
         /// loiMatKhau control.
         /// </summary>
@@ -47,7 +49,16 @@ namespace WebApplication_CayCanhOnline {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl loiMatKhau;
-        
+
+        /// <summary>
+        /// WrongLogin control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl WrongLogin;
+
         /// <summary>
         /// btnDangKy control.
         /// </summary>
@@ -56,7 +67,7 @@ namespace WebApplication_CayCanhOnline {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnDangKy;
-        
+
         /// <summary>
         /// btnDangNhap control.
         /// </summary>

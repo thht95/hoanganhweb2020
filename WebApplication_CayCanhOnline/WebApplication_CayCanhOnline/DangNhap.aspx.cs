@@ -66,6 +66,10 @@ namespace WebApplication_CayCanhOnline
             {
                 loiTaiKhoan.Style.Add("display", "block");
                 loiTaiKhoan.InnerText = "Tài khoản không tồn tại!";
+                int solandangnhapsai = Convert.ToInt32(Session["WrongLogin"]) + 1;
+                Session["WrongLogin"] = solandangnhapsai;
+                WrongLogin.Style.Add("display", "block");
+                WrongLogin.InnerText = "Đã dăng nhập sai " + solandangnhapsai + " lần.";
             }
             else
             {
@@ -86,6 +90,10 @@ namespace WebApplication_CayCanhOnline
                 {
                     loiMatKhau.Style.Add("display", "block");
                     loiMatKhau.InnerText = "Mật khẩu sai!";
+                    int solandangnhapsai = Convert.ToInt32(Session["WrongLogin"]) + 1;
+                    Session["WrongLogin"] = solandangnhapsai;
+                    WrongLogin.Style.Add("display", "block");
+                    WrongLogin.InnerText = "Đã đăng nhập sai " + solandangnhapsai + " lần.";
                 }
             }
         }
