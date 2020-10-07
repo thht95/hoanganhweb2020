@@ -3,3 +3,4 @@ git pull origin master => lấy code về
 link để xem câu mấy hoàn thành => https://github.com/thht95/hoanganhweb2020/commits/master
 
 câu 1: thay đổi "nhập mật khẩu" thành "nhập password"
+
